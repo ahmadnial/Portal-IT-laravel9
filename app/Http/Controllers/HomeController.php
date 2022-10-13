@@ -25,4 +25,14 @@ class HomeController extends Controller
     {
         return view('app.rekap-laporan');
     }
+
+    public function inventory()
+    {
+        return view('app.inventory');
+    }
+
+    public function stock()
+    {
+        return view('app.stock');
+    }
 }

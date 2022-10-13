@@ -295,7 +295,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="inventory.php" class="nav-link">
+                                    <a href="{{ url('inventory') }}" class="nav-link">
                                         <i class="nav-icon fas fa-clipboard-list"></i>
                                         <p>
                                             Inventory IT
@@ -304,7 +304,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="stock.php" class="nav-link">
+                                    <a href="{{ url('stock') }}" class="nav-link">
                                         <i class="nav-icon fas fa-dolly-flatbed"></i>
                                         <p>
                                             Stock

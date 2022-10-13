@@ -24,3 +24,5 @@ Route::get('/', function () {
 Route::get('/home', [HomeController::class, 'index']);
 Route::get('/createdailyreport', [HomeController::class, 'dailyReport']);
 Route::get('/rekap-laporan', [HomeController::class, 'rekapLaporan']);
+Route::get('/inventory', [HomeController::class, 'inventory']);
+Route::get('/stock', [HomeController::class, 'stock']);
